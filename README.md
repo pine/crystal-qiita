@@ -1,6 +1,6 @@
 # crystal-qiita [![Build Status](https://travis-ci.org/pine613/crystal-qiita.svg)](https://travis-ci.org/pine613/crystal-qiita)
 
-A [Crystal](http://crystal-lang.org/) wrapper for the Qiita API.
+A [Crystal](http://crystal-lang.org/) wrapper for the [Qiita](http://qiita.com/) API.
 
 ## Installation
 
