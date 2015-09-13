@@ -1,2 +1,4 @@
 require "spec"
-require "../src/crystal-qiita-search"
+require "webmock"
+
+require "../src/qiita"
