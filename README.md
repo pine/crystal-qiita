@@ -4,12 +4,13 @@ A [Crystal](http://crystal-lang.org/) wrapper for the [Qiita](http://qiita.com/)
 
 ## Installation
 
-Add this line to your application's `Projectfile`:
+Add this line to your application's `shard.yml`:
 
-```crystal
-deps do
-  github "pine613/crystal-qiita"
-end
+```yaml
+dependencies:
+  qiita:
+    github: pine613/crystal-qiita
+    branch: master
 ```
 
 ## Usage
