@@ -19,6 +19,8 @@ before_script:
   - crystal deps
 
 script:
+  - mkdir -p bin
+	- crystal build --release example/search_items.cr -o bin/search_items
   - crystal spec
 
 notifications:
