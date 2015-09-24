@@ -20,7 +20,7 @@ before_script:
 
 script:
   - mkdir -p bin
-	- crystal build --release example/search_items.cr -o bin/search_items
+  - crystal build --release example/search_items.cr -o bin/search_items
   - crystal spec
 
 notifications:
