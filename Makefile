@@ -2,6 +2,8 @@
 
 all:
 	crystal deps
+	make -p bin
+	crystal build --release example/search_items.cr -o bin/search_items
 	crystal spec
 
 clean:
