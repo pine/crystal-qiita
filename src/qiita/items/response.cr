@@ -1,8 +1,15 @@
 require "json"
 
 module Qiita::Items
+  class Tag
+    JSON.mapping({
+      name: String,
+      versions: Array(String),
+    })
+  end
+
   class Item
-    json_mapping({
+    JSON.mapping({
       rendered_body: { type: String, nilable: true },
       body: { type: String, nilable: true },
       coediting: Bool,
@@ -17,15 +24,8 @@ module Qiita::Items
     })
   end
 
-  class Tag
-    json_mapping({
-      name: String,
-      versions: Array(String),
-    })
-  end
-
   class User
-    json_mapping({
+    JSON.mapping({
       description: { type: String, nilable: true },
       facebook_id: { type: String, nilable: true },
       followees_count: Int32,

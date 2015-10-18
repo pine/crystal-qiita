@@ -10,6 +10,8 @@
 /.deps.lock
 /shard.lock
 
+/bin
+
 *.swp
 *.swo
 *~
