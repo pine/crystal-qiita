@@ -1,10 +1,17 @@
-.PHONY: all clean
+.PHONY: default all install build test clean
 
-all:
+default: all
+all: clean install build test
+
+install:
 	crystal deps
+
+build:
 	mkdir -p bin
 	crystal build --release example/search_items.cr -o bin/search_items
-	crystal spec
+
+test:
+	crystal spec -v
 
 clean:
 	rm -rf .crystal
