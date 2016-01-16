@@ -1,4 +1,7 @@
-# crystal-qiita [![Build Status](https://travis-ci.org/pine613/crystal-qiita.svg)](https://travis-ci.org/pine613/crystal-qiita)
+# crystal-qiita
+[![Build Status](https://travis-ci.org/pine613/crystal-qiita.svg)](https://travis-ci.org/pine613/crystal-qiita)
+[![Dependency Status](https://shards.rocks/badge/github/pine613/crystal-qiita/status.svg)](https://shards.rocks/github/pine613/crystal-qiita)
+[![devDependency Status](https://shards.rocks/badge/github/pine613/crystal-qiita/dev_status.svg)](https://shards.rocks/github/pine613/crystal-qiita)
 
 A [Crystal](http://crystal-lang.org/) wrapper for the [Qiita](http://qiita.com/) API.
 
