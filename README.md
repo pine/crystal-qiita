@@ -13,7 +13,7 @@ Add this line to your application's `shard.yml`:
 dependencies:
   qiita:
     github: pine613/crystal-qiita
-    branch: master
+    version: ~> 0.3.0
 ```
 
 ## Usage
